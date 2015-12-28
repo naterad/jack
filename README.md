@@ -1,2 +1,2 @@
-# CS360
-Project management tool for CS 360
+# JACK
+Project management tool for Restoration Companies
