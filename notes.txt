@@ -1,0 +1,59 @@
+[project list]
+name
+project number
+Address
+job type smoke, fire, suicide, mold
+carrier allstate, state farm,
+
+[project page]
+// THINGS TO HAVE IN A PROJECT
+// homeowner name
+// project number
+// Address
+// carrier allstate, state farm,
+// job type smoke, fire, suicide, mold
+
+// estimated end Date
+// claim number
+// agent infor
+//   contact, phone, address, email
+// adjuster info
+//   contact, phone, address, email
+// calendar (job schedule) //LEAVE OUT FOR NOW
+// documents //LEAVE OUT FOR NOW
+// notes //LEAVE OUT FOR NOW
+
+//Project.create({title:req.body.project.title,completed:false,user:user.id}, function(err,project) {
+api 99
+Project.create({title:"fake title",completed:false,user:user.id}, function(err,project) {
+
+links
+job sched
+document
+notes - send notes to everyone
+messages
+
+
+email notifications
+
+
+
+<div>Agent Info</div>
+<input type="text" placeholder="Agent name" ref="first"/>
+<input type="text" placeholder="Phone" ref="first"/>
+<input type="text" placeholder="Address" ref="first"/>
+<input type="text" placeholder="Email" ref="first"/>
+<div>Adjuster Info</div>
+<input type="text" placeholder="Adjuster name" ref="first"/>
+<input type="text" placeholder="Phone" ref="first"/>
+<input type="text" placeholder="Address" ref="first"/>
+<input type="text" placeholder="Email" ref="first"/>
+<br />
+
+
+<div className="list_item">Project 1   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  456 E. 3535 N. Orem, UT</div>
+<div className="list_item">Project 2   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  603 E. 225 S. Salt Lake City, UT</div>
+<div className="list_item">Project 3  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   800 E. 1115 N. Provo, UT</div>
+<div className="list_item">Project 4  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   800 E. 1115 N. Provo, UT</div>
+<div className="list_item">Project 5  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   800 E. 1115 N. Provo, UT</div>
+<div className="list_item">Project 6  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   800 E. 1115 N. Provo, UT</div>

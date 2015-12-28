@@ -1,0 +1,188 @@
+body{
+  font-family: 'Carme', sans-serif;
+  margin: 0;
+}
+.body_div{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+h3{
+  color:red;
+}
+.navbar-brand{
+  background-color: red;
+  color: white !important; /*this is bad practice. I will delete this*/
+}
+.hidden{
+  background-color: blue;
+  display: none;
+}
+.comment_details{
+  font-style: italic;
+  color: gray;
+}
+.signup{
+  text-align:center;
+  margin-top:10%;
+}
+.newproject{
+  margin-left: 10%;
+}
+.newproject div{
+  margin-top: 2%;
+  margin-left: -10%;
+  text-align: center;
+}
+.addsubmit{
+  margin-left: 35% !important;
+}
+.login{
+  text-align: center;
+  margin-top: 15%;
+}
+.header{
+  background-color: #E5E4E2;
+}
+.brand{
+  display: inline-block;
+  /*background-color: #1589FF; */
+  background-color: #F75D59;
+  color:white;
+  font-size: 22px;
+
+  width: 75px;
+  margin:auto;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+
+}
+.navbar{
+  display: inline-block;
+  float: right;
+}
+.navbar_p{
+  padding-top: 30px;
+  display: inline-flex;
+  padding-right: 30px;
+}
+.navbar_p a{
+  text-decoration: none;
+  color:black;
+}
+td{
+  border:solid;
+}
+table{
+}
+.list_item{
+  border:solid #C0C0C0 1px;
+  padding:10px;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+.proj_body{
+  border:solid #C0C0C0 1px;
+  padding:10px;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.left_right_container{
+  display:inline-flex;
+  width:100%;
+}
+.proj_body_left{
+  width:49%;
+}
+.proj_body_right{
+  width:49%;
+}
+.comment{
+  border:solid #C0C0C0 1px;
+  /*padding-top: 5px;*/
+  padding-bottom: 25px;
+  padding-left:10px;
+  padding-right:10px;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+a{
+text-decoration:none;
+}
+.table{
+  width:100%;
+}
+td{
+  border: none;
+}
+td:nth-child(1){
+  width:27%;
+}
+td:nth-child(2){
+  width:10%;
+}
+td:nth-child(3){
+  width:32%;
+}
+td:nth-child(4){
+  width:12%;
+}
+td:nth-child(5){
+  width:19%;
+}
+.add{
+  border:solid #C0C0C0 1px;
+  padding:10px;
+  width:84px;
+  /*float:right;*/
+  height: 22px;
+  margin-top: 19px;
+  margin-left: 28px;
+}
+.align_add{
+  display:inline-flex;
+}
+
+
+
+.btn{
+  background-color: #F75D59;
+  width:20%;
+  color:white;
+}
+.comment_text{
+  padding:10px;
+  width:100%;
+  /*height:92px;
+  font-size: 12pt;
+  font-family: 'Carme', sans-serif;*/
+}
+#item-form{
+  width:100%;
+}
+.add_comment_container{
+  margin-left: 9%;
+
+  width:82%;
+}
+input{
+    font-size: 15px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 30%;
+    padding: 15px;
+
+    /*border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;*/
+
+}
